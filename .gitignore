@@ -1,18 +1,8 @@
-# Virtual Environment
 venv/
-.venv/
-
-# Python Cache
 __pycache__/
 *.pyc
-
-# Data & Models (Generated)
+.DS_Store
 clean_data/
 features/vehicle_features.csv
 llm_data/text_enriched.csv
 models/baseline_ml.pkl
-
-# IDE / OS
-.DS_Store
-.vscode/
-.idea/
